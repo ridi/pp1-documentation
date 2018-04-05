@@ -11,16 +11,16 @@ List of directories
 - development
 - device : Build setup related files
 - docs
-- external ([submodule][https://github.com/rbx-rdm/pp1-external.git]) : astool, chromium, skia, etc. ([More](external/external.md))
-- frameworks ([submodule][https://github.com/rbx-rdm/pp1-frameworks.git]) : framework-res, SystemUI app, Android API ([More](frameworks/frameworks.md))
+- external ([submodule](https://github.com/rbx-rdm/pp1-external.git)) : astool, chromium, skia, etc. ([More](external/external.md))
+- frameworks ([submodule](https://github.com/rbx-rdm/pp1-frameworks.git)) : framework-res, SystemUI app, Android API ([More](frameworks/frameworks.md))
 - hardware
-- kernel_imx ([submodule][https://github.com/rbx-rdm/pp1-kernel_imx.git]) : kernel
+- kernel_imx ([submodule](https://github.com/rbx-rdm/pp1-kernel_imx.git)) : kernel
 - libcore
 - libnativehelper
 - ndk
 - ntx_addon : Netronix docs, custom apks/libs
 - out : build result is places here by default
-- packages ([submodule][https://github.com/rbx-rdm/pp1-packages.git]) : Settings ([More](packages/packages.md))
+- packages ([submodule](https://github.com/rbx-rdm/pp1-packages.git)) : Settings ([More](packages/packages.md))
 - pdk
 - prebuilts ([submodule](https://github.com/rbx-rdm/pp1-prebuilts.git))
 - rom (Ridi custom directory) : Custom A/S tool is placed here, and copies of firmware will be stored here ([More](rom/rom.md))
