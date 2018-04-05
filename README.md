@@ -73,5 +73,5 @@ pp1$ ./build_android_img.sh android-{eng / userdebug / user}
 ## More materials
 
 - List of Directories ([toc.md](toc.md]))
-- 
+- A/S tool ([rom.md](rom/rom.md))
 
