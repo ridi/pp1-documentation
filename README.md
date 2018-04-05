@@ -1,4 +1,4 @@
-PAPER PRO (PP1) Documentation (WIP)
+# PAPER PRO (PP1) Documentation (WIP)
 
 ## Requirements
 
