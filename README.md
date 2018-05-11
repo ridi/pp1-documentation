@@ -6,6 +6,7 @@
 - jdk1.6.0_45
 
 
+
 ## Downloading source code
 
 ```
@@ -18,6 +19,7 @@ This will also clone following submodules (via `--recursive` option) as subdirec
 - pp1-kernel_imx
 - pp1-packages
 - pp1-prebuilts
+
 
 
 ## Getting started
@@ -34,6 +36,7 @@ pp1$ ./chk_build_env.sh
 ```
 pp1$ ./build_config.sh nbkk52
 ```
+
 
 ## Building firmware
 
@@ -56,6 +59,7 @@ pp1$ ./build_android_img.sh android-{eng / userdebug / user}
 - android-user : adb disabled, apks resigned
 
 
+
 ## Installing firmware
 
 ### Putting device in fastboot mode
@@ -68,6 +72,19 @@ pp1$ ./build_android_img.sh android-{eng / userdebug / user}
 2. Enter user password (script contains `sudo` command)
 3. Connect device in fastboot mode (using instructions above)
 4. Wait for installation and reboot (you may disconnect after seeing `---> Finished`)
+
+
+
+## Creating update package
+
+After successfully building firmware,
+```
+$ cd ntx_addon/host_tools
+$ ./mk_update_zip_package.sh all
+```
+
+For more information on other options besides `all`, refer to [ntx_addon/host_tools/](ntx_addon/host_tools/)
+
 
 
 ## More materials
